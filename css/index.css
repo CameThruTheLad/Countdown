@@ -16,7 +16,7 @@ h1 {
 }
 
 .background_image {
-    background-image: url("img/IMG_8706.jpg");
+    background-image: url("../img/IMG_8706.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
