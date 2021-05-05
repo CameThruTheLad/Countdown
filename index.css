@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.background_image {
+    background-image: url("img/IMG_8706.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    height: 100%;
+    filter: blur(5px);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 4vw;
+    font-family: 'Poppins';
+    color: #fff;
+}
