@@ -13,6 +13,7 @@ h1 {
     font-size: 5vw;
     text-transform: uppercase;
     margin: 0;
+    color: red;
 }
 
 .background_image {
@@ -42,8 +43,4 @@ p {
     font-size: 4vw;
     font-family: 'Poppins';
     color: #fff;
-}
-
-.fuck {
-    color: red;
 }
